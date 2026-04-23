@@ -1,0 +1,27 @@
+{
+  "name": "gmail-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for Gmail API",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts"
+  },
+  "keywords": [
+    "mcp",
+    "gmail",
+    "email"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.19.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.2"
+  }
+}
